@@ -1,0 +1,44 @@
+body {
+	display: grid;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	grid-template-areas: "head head"
+	                     "nav nav"
+	                     "section aside"
+	                     "footer footer";
+    grid-template-rows:	80px 40px minmax(400px, auto) auto;
+grid-template-columns: 1fr 25%;
+    background-color: #FFFFFF;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+@media screen and (orientation: portrait) {
+	body {
+
+
+		grid-template-columns: 100%;
+		grid-template-rows:	auto auto minmax(400px, auto) auto;
+		grid-template-areas: 	"head"
+								"nav"
+								"section"
+								"footer";
+	}
+	nav {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: repeat(auto-fill);
+		grid-auto-flow:row;
+		row-gap: 15px;
+	}
+	aside, nav{
+		 display: none;
+	}
+footer {
+		padding: 5px;
+		display: grid;
+		grid-template-columns: 1fr;
+		row-gap: 50px;
+		grid-template-rows: repeat(3,auto);
+	}
+}

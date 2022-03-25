@@ -1,0 +1,67 @@
+<head>
+  <title>Connexion</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./CSS/formulaire.css">
+  <link rel="stylesheet" type="text/css" href="./JS/formulaire.js">
+ </head>
+
+<div class="overlay">
+<form>
+   <!--   con = Container  for items in the form-->
+   <div class="con">
+   <!--     Start  header Content  -->
+   <header class="head-form">
+      <h2>CONNECTEZ-VOUS</h2>
+      <!--     A welcome message or an explanation of the login form -->
+      <p> À VOTRE COMPTE</p>
+   </header>
+   <br>
+   <div class="field-set">
+
+      <!--   user name -->
+         <span class="input-item">
+           <i class="fa fa-user-circle"></i>
+         </span>
+        <!--   Votre identifiant -->
+         <input class="form-input" id="txt-input" type="text" placeholder="Votre identifiant" required>
+
+      <br>
+
+           <!--   Password -->
+
+      <span class="input-item">
+        <i class="fa fa-key"></i>
+       </span>
+      <!--   Password Input-->
+      <input class="form-input" type="password" placeholder="mot de passe" id="pwd"  name="password" required>
+
+<!--      Show/hide password  -->
+     <span>
+        <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
+     </span>
+
+
+      <br>
+<!--        buttons -->
+<!--      button LogIn -->
+      <button class="log-in">Connectez vous </button>
+   </div>
+
+<!--   other buttons -->
+   <div class="other">
+<!--      Forgot Password button-->
+      <button class="btn submits frgt-pass">Mot de passe oublie</button>
+<!--     Sign Up button -->
+      <button class="btn submits sign-up">Inscription
+<!--         Sign Up font icon -->
+      <i class="fa fa-user-plus" aria-hidden="true"></i>
+      </button>
+<!--      End Other the Division -->
+   </div>
+
+<!--   End Conrainer  -->
+  </div>
+
+  <!-- End Form -->
+</form>
+</div>

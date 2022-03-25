@@ -1,0 +1,107 @@
+.Dron-IR{
+    color: #FFFFFF;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+header {
+    grid-area: head;
+    text-align: center;
+    background-color: #18c072;
+    font-family: Brush Script MT, Brush Script Std, cursive ;
+}
+nav {
+    grid-area: nav;
+    background-color: #18c072;
+    color: #3498DB;
+}
+aside {
+  /* margin: 10px 0px 10px 10px; */
+  border-width: 3px;
+  border-style: solid;
+  border-image:
+    linear-gradient(
+      to bottom,
+      white,
+      #03b44d,
+      white
+    ) 1 100%;
+    padding: 10px;
+  /* border-left: 0.05em solid linear-gradient(white, #2874a6, white); */
+  /* border-radius: 10px; */
+}
+section {
+    grid-area: section;
+    background-color: #FFFFFF;
+
+
+}
+section h2{
+  color: #3fb15c;
+  padding-left: 30px;
+  text-align: center;
+  margin: 50px 0;
+  font-size: 35px;
+  font-weight: lighter;
+  font-variant-caps: small-caps;
+
+}
+section div.quatre_colonnes{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+ background-color: #FFFFFF;
+}
+section div.quatre_colonnes p {
+text-align: center section;
+font-size: 22px;
+font-weight: normal;
+}
+.Pspe{
+    padding-left: 25px;
+}
+section div span {
+    color: #0000FF;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #18c072;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 33% 33%;
+    width: auto;
+    color: #FFFFFF;
+    }
+nav a {
+    padding: 30px;
+}
+.bas {
+    display: infine ;
+    text-align: center;
+    margin: 30px 250px 20px 250px;
+}
+
+.Dron-IR {
+    display: inline;
+    text-align: centre;
+
+}
+h1 {
+    color: #03b44d;
+
+}
+section img#AF1 {
+  float: left;
+    padding:30px 30px 30px 0px;
+    height: 350px;
+    width: 360px;
+}
+
+section img#AF2 {
+  float: left;
+    padding:40px 40px 30px 0px;
+    height: 350px;
+    width: 360px;
+}
